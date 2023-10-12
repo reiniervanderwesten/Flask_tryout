@@ -4,7 +4,7 @@ app=Flask(__name__)
 
 @app.route('/')
 def home():
-    return "<p> Happy Halloween! </p>"
+    return "<p> Hello World! </p>"
 
 if __name__=='__main__':
     app.run(port=5000, debug=True)
